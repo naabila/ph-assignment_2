@@ -1,0 +1,33 @@
+@media(max-width:576px){
+    h2{
+        font-size: 3.2rem;
+        line-height: 4rem;
+     }
+     /* Habit section  */
+     .habits {
+        max-width: 50%;
+        margin: 0 auto;
+    }
+    .run-contents {
+        flex-direction: column;
+        padding: 3rem 5.5rem;
+        gap: 3rem;
+    }
+    .run-text {
+        width: 100%;
+    }
+    .run-img{
+        width: 28.7rem;
+        height: 17rem;
+        text-align: center;
+        background-image: url("../images/run.jpg");
+    }
+    .services{
+        
+        gap: 1rem;
+    }
+    .service-content {
+        padding: 2rem 0rem;
+    }
+
+}
