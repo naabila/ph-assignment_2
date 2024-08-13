@@ -1,4 +1,8 @@
 @media(max-width:576px){
+    .container{
+        width: 95%;
+        margin: 0 auto;
+    }
     h2{
         font-size: 3.2rem;
         line-height: 4rem;
@@ -28,6 +32,23 @@
     }
     .service-content {
         padding: 2rem 0rem;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .footer-logo {
+        max-width: 100%;
+    }
+    .footer-col {
+        width: 101%;
+        margin-top: 3rem;
+    }
+    .footer-bottom {
+        /* margin: 3rem auto; */
+        text-align: left;
+      
     }
 
 }

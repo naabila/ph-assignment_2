@@ -38,7 +38,7 @@ p{
     line-height: 24px;
 
 }
-h1,h2,h3,h4{
+h1,h2,h3,h4,h5{
     color: var(--heading-color);
 
 }
@@ -107,6 +107,10 @@ button.btn {
 }
 .heading-content {
     max-width: 55rem;
+}
+img{
+    max-width: 100%;
+    width: 100%;
 }
 
 /* Header section styles====================== */
@@ -264,13 +268,100 @@ section.Services-section{
 .service-content {
     padding: 4rem 2rem;
 }
-
-
-
-
-
 .service-heading h3 {
     font-size: 2rem;
     font-weight: 500;
     line-height: 5rem;
+}
+
+/* Member section =============================================================================== */
+
+.members{
+ display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+ gap: 3rem;
+border-radius: 18px;
+background: rgba(255, 255, 255, 0.1);
+padding: 2rem;
+}
+
+.member-container {
+    overflow: hidden;
+    margin: 6rem 0;
+}
+
+.single-member {
+    position: relative;
+}
+
+.member-details {
+    position: absolute;
+    top: 81%;
+    left: 4%;
+}
+
+.member-image {
+    border-radius: 18px;
+    overflow: hidden;
+}
+
+.member-image img {
+    border-radius: 18px;
+    width: 365.67px;
+    height: 272px;
+    transition: .5s ease-in-out;
+   
+}
+.member-image img:hover {
+    transform: scale(1.1);
+}
+.member-details h4 {
+    font-size: 1.3rem;
+    font-weight: 900;
+    transition: .3s ease-in-out;
+}
+.member-details h4:hover,
+.member-details p:hover{
+    letter-spacing: 3px;
+}
+.member-details p{
+    font-weight: 200;
+    transition: .3s ease-in-out;
+   
+}
+
+/* footer section=========================== */
+footer.footer-section{
+    background-color: var(--section-bg);
+}
+.footer-content {
+    padding: 6rem 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-logo {
+    max-width: 36rem;
+}
+
+.footer-logo p {
+    /* line-height: 2rem; */
+    margin-top: 2rem;
+}
+
+.footer-col h5 {
+    font-size: 18px;
+    margin: 0 0 2rem 0;
+    font-weight: 700;
+}
+
+.footer-menu p {
+    line-height: 3rem;
+}
+.footer-bottom {
+    /* margin: 3rem auto; */
+    text-align: center;
+    padding: 3rem 0;
+    border-top: 1px solid var(--text-color);
 }
