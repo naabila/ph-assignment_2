@@ -7,6 +7,9 @@
         font-size: 3.2rem;
         line-height: 4rem;
      }
+     p{
+        flex-shrink: 1.2rem;
+     }
      /* navbar ==================== */
      .nav-toggle-icon {
         display: block;
@@ -65,6 +68,11 @@
     }
     .service-content {
         padding: 2rem 0rem;
+    }
+    /* BMI CONTENTS==================== */
+    .bmi-contents{
+    flex-direction: column;
+    
     }
     /* team member section ================ */
     .members{
