@@ -331,6 +331,7 @@ section.Services-section{
 }
 .service-icon i.fa-solid:hover{
     color: var(--heading-color);
+    transform: translateY(-10px);
 }
 .service-content {
     padding: 4rem 2rem;
