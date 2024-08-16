@@ -429,7 +429,7 @@ form.styled-form p {
     background-color: #333;
     border: 1px solid #444;
     border-radius: 5px;
-    color: #ccc;
+    color: var(--text-color);
 }
 
 .input-group.full-width select {
@@ -438,7 +438,7 @@ form.styled-form p {
 
 .input-group input::placeholder,
 .input-group select {
-    color: #ccc;
+    color: var(--text-color);
 }
 
 .input-group select {
@@ -450,6 +450,14 @@ form.styled-form p {
 .input-group select option[disabled] {
     color: #666;
 }
+option {
+    background: var(--section-bg)!important;
+}
+.input-group select option:hover {
+    background-color: var(--btn-color)!important;
+    
+}
+
 /* Member section =============================================================================== */
 
 .members{
